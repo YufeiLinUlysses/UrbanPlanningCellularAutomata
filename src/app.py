@@ -19,10 +19,10 @@ transit = np.matrix([
 # Initialize a land
 l = Land(5, 5, 3, transit)
 im = ax.imshow(l.land)
-im.figure.savefig("Original.png")
+im.figure.savefig("../output/Original.png")
 
 for i in range(generations):
-    fileName = "Gen-"+str(i+1)+".png"
+    fileName = "../output/Gen-"+str(i+1)+".png"
     l = l.withTransitionMatrix()
     heat = ax.imshow(l.land)
     heat.figure.savefig(fileName)
