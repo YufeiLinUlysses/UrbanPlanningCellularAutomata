@@ -1,0 +1,140 @@
+ \documentclass[a4paper,12pt]{report}
+
+%Packages Used
+\usepackage{amssymb,latexsym,amsmath}     % Standard packages
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{graphics,graphicx}
+\usepackage{tikz}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{esvect}
+\usepackage{chngcntr}
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+
+\bookmarksetup{
+  numbered,
+  open
+}
+\renewcommand*{\thesection}{\arabic{section}}
+\onehalfspacing
+
+%Margins
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.00in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\topmargin}{-.50in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Theorem/Proof Environments %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}
+\newenvironment{proof}{\noindent{\bf Proof:}}{$\hfill \Box$ \vspace{10pt}}
+\sectionfont{\fontsize{12}{15}\selectfont}
+\titlespacing*{\section}{0.5pt}{0.25\baselineskip}{0.25\baselineskip}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+\begin{document}
+\noindent
+Yufei Lin
+
+\noindent
+Transition Rules
+
+\noindent
+Apr \(8^{th}\) 2020
+
+\begin{center}
+\textbf{Transition Rules}
+\end{center}
+
+\section*{I. Nature}Should be at least $25\%$ of the total land
+
+\noindent
+\textbf{1 Stay the Same: }
+
+\begin{enumerate}
+\item Surrounded by 5 or more human land use
+\item Within a nature neighbourhood
+\item If change meaning reduce to less than $25\%$ of land is nature
+\end{enumerate}
+
+\noindent
+\textbf{2 Turn to Nature:}
+
+\noindent
+\begin{enumerate}
+\item At least $6$ human uses 
+\item Have over $5$ factories
+\end{enumerate}
+
+\section*{II. Residential}Should be around $25\%\sim 43\%$ of the total land
+
+\noindent
+\textbf{1 Stay the Same: }
+
+\begin{enumerate}
+\item Adjacent to at most $1$ factory
+\item Adjacent to at least 5 commercial or nature or residential
+\item Change meaning less than $25\%$ of the land is residential
+\end{enumerate}
+
+\noindent
+\textbf{2 Turn to Residential:}
+
+\noindent
+\begin{enumerate}
+\item Nature next to commercial and residential, no record of factory for at least 2 generations
+\item Commercial has $10\%$ chance change into residential
+\item Factory cannot turn to residential
+\end{enumerate}
+
+\section*{III. Commercial}
+
+\noindent
+\textbf{1 Stay the Same: }
+
+\begin{enumerate}
+\item Next to at least 2 residential
+\item Next to at least 1 factory
+\end{enumerate}
+
+\noindent
+\textbf{2 Turn to Residential:}
+
+\noindent
+\begin{enumerate}
+\item Next to at least 1 residential, 1 nature has $45\%$ change into commercial 
+\item Next to at least 1 factory, has $30\%$ change into commercial
+\item Rest, has $25\%$ change into commercial
+\end{enumerate}
+
+\section*{IV. Factory}
+
+\noindent
+\textbf{1 Stay the Same: }
+
+\begin{enumerate}
+\item Next to at most 4 factory
+\item Next to at most 3 residential
+\end{enumerate}
+
+\noindent
+\textbf{2 Turn to Residential:}
+
+\noindent
+\begin{enumerate}
+\item Next to at least 4 nature and adjacent to at most 3 residential
+\end{enumerate}
+
+\end{document}
