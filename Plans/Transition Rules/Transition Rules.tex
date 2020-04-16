@@ -58,45 +58,96 @@ Apr \(8^{th}\) 2020
 \textbf{Transition Rules}
 \end{center}
 
-\section*{I. Nature}Should be at least $25\%$ of the total land
+\section*{I. Nature}
+This is category includes all the nature landscapes, vacant spaces and lands with no purposes. Should be at least $25\%$ of the total land
 
 \noindent
 \textbf{1 Stay the Same: }
 
 \begin{enumerate}
 \item Surrounded by 5 or more human land use
-\item Within a nature neighbourhood
-\item If change meaning reduce to less than $25\%$ of land is nature
+\item Within a nature neighbourhood (meaning 7 or more nature)
+\item If change meaning reduce to less than $25\%$ of land is nature (Too complicated, maybe later)
 \end{enumerate}
 
 \noindent
-\textbf{2 Turn to Nature:}
+\textbf{2 Turn to Other Land Use:}
 
 \noindent
+1. Next to at least three commercials:
 \begin{enumerate}
-\item At least $6$ human uses 
-\item Have over $5$ factories
+\item[(1)] Nature: $0.2$ 
+\item[(2)] Residential: $0.3$
+\item[(3)] Commercial: $0.4$
+\item[(4)] Industrial: $0.1$
 \end{enumerate}
 
-\section*{II. Residential}Should be around $25\%\sim 43\%$ of the total land
+\noindent
+2. Next to at least five industrial:
+\begin{enumerate}
+\item[(1)] Nature: $0.1$ 
+\item[(2)] Residential: $0$
+\item[(3)] Commercial: $0.3$
+\item[(4)] Industrial: $0.6$
+\end{enumerate}
+
+\noindent
+\textbf{3 General Probabilities}
+\begin{enumerate}
+\item[(1)] Nature: $0.7$ 
+\item[(2)] Residential: $0.1$
+\item[(3)] Commercial: $0.1$
+\item[(4)] Industrial: $0.1$
+\end{enumerate}
+
+\section*{II. Residential}This majorly contains all the housing area of the city. Should be around $25\%\sim 43\%$ of the total land
 
 \noindent
 \textbf{1 Stay the Same: }
 
 \begin{enumerate}
 \item Adjacent to at most $1$ factory
-\item Adjacent to at least 5 commercial or nature or residential
-\item Change meaning less than $25\%$ of the land is residential
+\item Adjacent to at least 5 commercial or nature
+\item Change meaning less than $25\%$ of the land is residential (Still too complicated, maybe later)
 \end{enumerate}
 
 \noindent
-\textbf{2 Turn to Residential:}
+\textbf{2 Turn to Other Land Use:}
 
 \noindent
+1. Next to at least three commercials:
 \begin{enumerate}
-\item Nature next to commercial and residential, no record of factory for at least 2 generations
-\item Commercial has $10\%$ chance change into residential
-\item Factory cannot turn to residential
+\item[(1)] Nature: $0.1$ 
+\item[(2)] Residential: $0.5$
+\item[(3)] Commercial: $0.3$
+\item[(4)] Industrial: $0.1$
+\end{enumerate}
+
+\noindent
+2. Next to at least five residential:
+\begin{enumerate}
+\item[(1)] Nature: $0.6$ 
+\item[(2)] Residential: $0.2$
+\item[(3)] Commercial: $0.2$
+\item[(4)] Industrial: $0$
+\end{enumerate}
+
+\noindent
+3. Next to two or more factories:
+\begin{enumerate}
+\item[(1)] Nature: $0.2$ 
+\item[(2)] Residential: $0$
+\item[(3)] Commercial: $0.1$
+\item[(4)] Industrial: $0.7$
+\end{enumerate}
+
+\noindent
+\textbf{3 General Probability}
+\begin{enumerate}
+\item[(1)] Nature: $0.3$ 
+\item[(2)] Residential: $0.4$
+\item[(3)] Commercial: $0.3$
+\item[(4)] Industrial: $0$
 \end{enumerate}
 
 \section*{III. Commercial}
@@ -106,17 +157,45 @@ Apr \(8^{th}\) 2020
 
 \begin{enumerate}
 \item Next to at least 2 residential
-\item Next to at least 1 factory
 \end{enumerate}
 
 \noindent
-\textbf{2 Turn to Residential:}
+\textbf{2 Turn to Other Land Use:}
 
 \noindent
+1. Next to at least 1 residential, 1 nature:
 \begin{enumerate}
-\item Next to at least 1 residential, 1 nature has $45\%$ change into commercial 
-\item Next to at least 1 factory, has $30\%$ change into commercial
-\item Rest, has $25\%$ change into commercial
+\item[(1)] Nature: $0.15$ 
+\item[(2)] Residential: $0.35$
+\item[(3)] Commercial: $0.45$
+\item[(4)] Industrial: $0.05$
+\end{enumerate}
+
+\noindent
+2. Next to at least three industrials:
+\begin{enumerate}
+\item[(1)] Nature: $0.1$ 
+\item[(2)] Residential: $0$
+\item[(3)] Commercial: $0.6$
+\item[(4)] Industrial: $0.3$
+\end{enumerate}
+
+\noindent
+3. Next to at three residential:
+\begin{enumerate}
+\item[(1)] Nature: $0.3$ 
+\item[(2)] Residential: $0.4$
+\item[(3)] Commercial: $0.3$
+\item[(4)] Industrial: $0$
+\end{enumerate}
+
+\noindent
+\textbf{3 General Probability}
+\begin{enumerate}
+\item[(1)] Nature: $0.2$ 
+\item[(2)] Residential: $0.4$
+\item[(3)] Commercial: $0.3$
+\item[(4)] Industrial: $0.1$
 \end{enumerate}
 
 \section*{IV. Factory}
@@ -130,11 +209,23 @@ Apr \(8^{th}\) 2020
 \end{enumerate}
 
 \noindent
-\textbf{2 Turn to Residential:}
+\textbf{2 Turn to Other Land Use:}
 
 \noindent
+1. Next to at least 4 nature and adjacent to at most 3 residential
 \begin{enumerate}
-\item Next to at least 4 nature and adjacent to at most 3 residential
+\item[(1)] Nature: $0.3$ 
+\item[(2)] Residential: $0$
+\item[(3)] Commercial: $0.2$
+\item[(4)] Industrial: $0.5$
 \end{enumerate}
 
+\noindent
+\textbf{3 General Probability}
+\begin{enumerate}
+\item[(1)] Nature: $0.2$ 
+\item[(2)] Residential: $0.1$
+\item[(3)] Commercial: $0.3$
+\item[(4)] Industrial: $0.4$
+\end{enumerate}
 \end{document}

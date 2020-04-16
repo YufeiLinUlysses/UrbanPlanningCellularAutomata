@@ -2,7 +2,7 @@ import numpy as np
 import random
 
 
-class Land:
+class SimpleLand:
     n = 0
     row = 0
     col = 0
@@ -36,7 +36,7 @@ class Land:
         # Initialize a numpy array
         newLand = np.zeros(self._total, dtype=int)
         # Convert original land use to vector
-        toVec = self.land.flatten('F')
+        toVec = self.land.flatten()
         # Get a converted matrix from the vector form
         # Get boundaries
         conversion = np.zeros((self.n, self._total), dtype=int)
@@ -48,15 +48,13 @@ class Land:
             curT = -1
             prob = self._stochastic.item(i)
             for j in range(self.n):
-                temp = self.n - j-1
-                tProb = np.sort(boundaries[0]).item(temp)
-                if (prob > tProb):
+                tProb = boundaries[i].item(j)
+                if(prob > tProb):
                     prob = prob-tProb
-                    curT = np.argsort(boundaries[0]).item(temp-1)
                 else:
-                    curT = np.argsort(boundaries[0]).item(temp)
+                    curT = j
                     break
             newLand[i] = curT
         newLand = np.reshape(newLand, (self.row, self.col))
-        nL =Land(self.row, self.col, self.n, self.transM, newLand)
+        nL = SimpleLand(self.row, self.col, self.n, self.transM, newLand)
         return nL
