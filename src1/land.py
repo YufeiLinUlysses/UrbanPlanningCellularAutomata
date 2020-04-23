@@ -1,13 +1,16 @@
 import cell as c
 import numpy as np
 import random
+import landtype as lt
 
 
-class Land1:
+class Land:
     row = 0
     col = 0
     land = []
     digitLand = []
+    landTypes = [lt.Nature(), lt.Residential(),
+                 lt.Commercial(), lt.Industrial()]
 
     def updateInfo(self):
         for i in range(self.row):
@@ -40,15 +43,6 @@ class Land1:
                 if b < self.row and r < self.col:
                     self.land[b][r].landUseCount[landType] += 1
 
-    def updateProbs(self):
-        for i in range(self.row):
-            for j in range(self.col):
-                landUseCount = self.land[i][j].landUseCount
-                self.land[i][j].probs[0] = landUseCount["Nature"]/8
-                self.land[i][j].probs[1] = landUseCount["Residential"]/8
-                self.land[i][j].probs[2] = landUseCount["Commercial"]/8
-                self.land[i][j].probs[3] = landUseCount["Industrial"]/8
-
     def __init__(self, row, col, land=None, digitland=None):
         self.row = row
         self.col = col
@@ -62,22 +56,19 @@ class Land1:
                 thisdigitrow = []
                 for j in range(col):
                     typeNum = random.randint(0, 3)
-                    newType = c.assignType(typeNum)
-                    ele = c.Cell(newType)
+                    ele = c.Cell(self.landTypes[typeNum])
                     thisrow.append(ele)
                     thisdigitrow.append(typeNum)
                 self.land.append(thisrow)
                 self.digitLand.append(thisdigitrow)
             self.updateInfo()
-            self.updateProbs()
             self.digitLand = np.matrix(self.digitLand)
 
     def newGen(self):
         for i in range(self.row):
             for j in range(self.col):
-                self.land[i][j] = self.land[i][j].update()
+                self.land[i][j] = self.land[i][j].update(self.landTypes)
                 self.digitLand.itemset(
                     (i, j), self.land[i][j].landType.typeNum)
         self.updateInfo()
-        self.updateProbs()
         return self

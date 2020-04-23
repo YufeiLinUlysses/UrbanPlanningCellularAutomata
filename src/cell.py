@@ -9,6 +9,7 @@ class Cell:
     landUseCount = {}
     landType = None
     record = deque([lt.Nature() for i in range(5)])
+    probs = [0, 0, 0, 0]
     prob = 0
 
     def __init__(self, landType):
@@ -16,26 +17,23 @@ class Cell:
         self.record.append(landType)
         self.record.popleft()
         self.landUseCount = {
-            "Nature": 4,
+            "Nature": 0,
             "Residential": 0,
-            "Commercial": 2,
-            "Industrial": 2
+            "Commercial": 0,
+            "Industrial": 0
         }
-        self.prob = random.random()        
+        self.prob = random.random()
 
     def update(self):
         prob = self.prob
-        rules = self.landType.rules
-        for i in range(len(rules)):
-            cur = rules[i].rule(self)
-            if (cur is True):
-                tempProbs = rules[i].probs
-                for j in range(len(tempProbs)):
-                    if prob > tempProbs[j]:
-                        prob = prob-tempProbs[j]
-                    else:
-                        newType = assignType(j)
-                        return Cell(newType)
+        probs = self.probs 
+        for i in range(len(probs)):
+            if prob > probs[i]:
+                prob = prob-probs[i]
+            else:
+                newType = assignType(i)
+                return Cell(newType)
+
 
 def assignType(result):
     if result == 0:

@@ -47,5 +47,6 @@ def land1Test():
         l = l.newGen()
         heat = ax.imshow(l.digitLand)
         heat.figure.savefig(fileName)
+        break
 
 land1Test()
