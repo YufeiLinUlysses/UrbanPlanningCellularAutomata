@@ -1,0 +1,80 @@
+ \documentclass[a4paper,12pt]{report}
+
+%Packages Used
+\usepackage{amssymb,latexsym,amsmath}     % Standard packages
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{graphics,graphicx}
+\usepackage{tikz}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{esvect}
+\usepackage{chngcntr}
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+
+\bookmarksetup{
+  numbered,
+  open
+}
+\renewcommand*{\thesection}{\arabic{section}}
+\onehalfspacing
+
+\newcommand{\suchthat}{\;\ifnum\currentgrouptype=16 \middle\fi|\;}
+
+%Margins
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.00in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\topmargin}{-.50in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Theorem/Proof Environments %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{Theorem}
+\newenvironment{proof}{\noindent{\bf Proof:}}{$\hfill \Box$ \vspace{10pt}}
+\sectionfont{\fontsize{12}{15}\selectfont}
+\titlespacing*{\section}{0.5pt}{0.25\baselineskip}{0.25\baselineskip}
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+\titleformat{\section}[block]{\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsection}[hang]{\bfseries}{}{1em}{}
+\setcounter{secnumdepth}{0}
+
+
+\begin{document}
+\noindent
+Yufei Lin
+
+\noindent
+Final Essay
+
+\noindent
+Apr \(30^{th}\) 2020
+
+\begin{center}
+\textbf{Final Essay}
+\end{center}
+
+\section{Abstract}
+
+This research seeks to improve the existing cellular automata models for simulating sustainable city development. The existing literature has taken land use dynamics as a direct representation of city development. This literature has accounted for the economic, environmental, and social factors affecting land use transition probabilities within a context of a growing city. We will expand upon this model to investigate how changes to the transition probabilities could influence the way a city develops. 
+
+\section{Introduction}
+
+In this research, we started building out a simple land simulation system with four different land use types: Nature, Residential, Commercial and Industrial, where all cells change follows a specific transition matrix. Then, we expand this model to look at how neighbouring cells would effect the transition probabilities of an existing cell by first looking at a simpler model where we only take in the different number of land types into account, and then look at a combination of different number of land use types and a set of given transition matrices. And, we look at the percentage of nature and residential, and the average distance from a cell to all three other types of land uses.  
+
+
+
+\end{document}
