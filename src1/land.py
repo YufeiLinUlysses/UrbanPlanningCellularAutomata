@@ -139,17 +139,15 @@ class Land:
         result = ""
         for key, val in self.collectTypes.items():
             for item in val:
-                dists[0] += self.getShortestDist(item[0], item[1], "Nature")
-                # print(item)
-                # print(self.getShortestDist(item[0], item[1], "Nature"))
-                # print()
+                dists[0] += self.getShortestDist(item[0], 
+                                                 item[1], "Nature")
                 dists[1] += self.getShortestDist(item[0],
                                                  item[1], "Residential")
                 dists[2] += self.getShortestDist(item[0],
                                                  item[1], "Commercial")
                 dists[3] += self.getShortestDist(item[0],
                                                  item[1], "Industrial")
-            
+
             result += "Average Distance from "+key+"\n" +\
                 "To Nature: " + \
                 str(round(dists[0]/len(val), 2)) + "\n" +\
@@ -159,6 +157,8 @@ class Land:
                 str(round(dists[2]/len(val), 2)) + "\n" +\
                 "To Industrial: " + \
                 str(round(dists[3]/len(val), 2)) + "\n"
+                
+            dists = [0, 0, 0, 0]
         return result
 
     def sustanabilityAssessment(self, index=None):

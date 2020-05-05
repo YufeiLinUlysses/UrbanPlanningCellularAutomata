@@ -1,286 +1,286 @@
 Generation 0
-Percent of Nature: 29.0
-Percent of Residential: 24.0
-Percent of Commercial: 19.0
-Percent of Industrial: 28.0
+Percent of Nature: 16.0
+Percent of Residential: 26.0
+Percent of Commercial: 25.0
+Percent of Industrial: 33.0
 Average Distance from Nature
 To Nature: 0.0
-To Residential: 1.24
-To Commercial: 1.41
-To Industrial: 1.19
+To Residential: 1.1
+To Commercial: 1.15
+To Industrial: 1.1
 Average Distance from Residential
-To Nature: 1.19
-To Residential: 1.5
-To Commercial: 2.98
-To Industrial: 2.52
+To Nature: 1.8
+To Residential: 0.0
+To Commercial: 1.2
+To Industrial: 1.1
 Average Distance from Commercial
-To Nature: 2.67
-To Residential: 3.05
-To Commercial: 3.76
-To Industrial: 4.48
+To Nature: 1.47
+To Residential: 1.27
+To Commercial: 0.0
+To Industrial: 1.07
 Average Distance from Industrial
-To Nature: 2.98
-To Residential: 3.27
-To Commercial: 4.02
-To Industrial: 3.04
+To Nature: 1.67
+To Residential: 1.18
+To Commercial: 1.22
+To Industrial: 0.0
 
 Generation 1
-Percent of Nature: 59.0
-Percent of Residential: 5.0
-Percent of Commercial: 14.0
-Percent of Industrial: 22.0
+Percent of Nature: 53.0
+Percent of Residential: 6.0
+Percent of Commercial: 16.0
+Percent of Industrial: 25.0
 Average Distance from Nature
 To Nature: 0.0
-To Residential: 2.07
-To Commercial: 1.76
-To Industrial: 1.54
+To Residential: 2.54
+To Commercial: 1.66
+To Industrial: 1.39
 Average Distance from Residential
 To Nature: 1.0
-To Residential: 24.42
-To Commercial: 22.62
-To Industrial: 19.39
+To Residential: 0.0
+To Commercial: 1.33
+To Industrial: 1.28
 Average Distance from Commercial
-To Nature: 1.42
-To Residential: 11.37
-To Commercial: 8.08
-To Industrial: 8.75
+To Nature: 1.13
+To Residential: 3.12
+To Commercial: 0.0
+To Industrial: 1.23
 Average Distance from Industrial
-To Nature: 1.92
-To Residential: 9.29
-To Commercial: 6.77
-To Industrial: 5.57
+To Nature: 1.03
+To Residential: 2.5
+To Commercial: 1.41
+To Industrial: 0.0
 
 Generation 2
-Percent of Nature: 56.0
+Percent of Nature: 59.0
 Percent of Residential: 7.0
-Percent of Commercial: 19.0
+Percent of Commercial: 16.0
 Percent of Industrial: 18.0
 Average Distance from Nature
 To Nature: 0.0
-To Residential: 2.09
-To Commercial: 1.35
-To Industrial: 1.48
+To Residential: 2.03
+To Commercial: 1.46
+To Industrial: 1.35
 Average Distance from Residential
 To Nature: 1.0
-To Residential: 16.71
-To Commercial: 12.2
-To Industrial: 12.82
+To Residential: 0.0
+To Commercial: 1.32
+To Industrial: 1.5
 Average Distance from Commercial
-To Nature: 1.37
-To Residential: 8.45
-To Commercial: 4.49
-To Industrial: 6.16
+To Nature: 1.11
+To Residential: 2.34
+To Commercial: 0.0
+To Industrial: 1.33
 Average Distance from Industrial
-To Nature: 2.44
-To Residential: 10.61
-To Commercial: 6.23
-To Industrial: 6.51
+To Nature: 1.02
+To Residential: 2.11
+To Commercial: 1.45
+To Industrial: 0.0
 
 Generation 3
-Percent of Nature: 65.0
-Percent of Residential: 8.0
-Percent of Commercial: 15.0
-Percent of Industrial: 12.0
-Average Distance from Nature
-To Nature: 0.0
-To Residential: 1.61
-To Commercial: 1.48
-To Industrial: 1.93
-Average Distance from Residential
-To Nature: 1.0
-To Residential: 13.08
-To Commercial: 13.31
-To Industrial: 17.67
-Average Distance from Commercial
-To Nature: 1.53
-To Residential: 8.57
-To Commercial: 7.1
-To Industrial: 10.99
-Average Distance from Industrial
-To Nature: 2.92
-To Residential: 12.91
-To Commercial: 10.25
-To Industrial: 13.74
-
-Generation 4
-Percent of Nature: 60.0
-Percent of Residential: 11.0
+Percent of Nature: 59.0
+Percent of Residential: 14.0
 Percent of Commercial: 17.0
-Percent of Industrial: 12.0
-Average Distance from Nature
-To Nature: 0.0
-To Residential: 2.23
-To Commercial: 1.61
-To Industrial: 2.34
-Average Distance from Residential
-To Nature: 1.04
-To Residential: 12.16
-To Commercial: 10.61
-To Industrial: 14.74
-Average Distance from Commercial
-To Nature: 1.67
-To Residential: 10.18
-To Commercial: 6.86
-To Industrial: 11.5
-Average Distance from Industrial
-To Nature: 3.37
-To Residential: 17.21
-To Commercial: 11.29
-To Industrial: 16.3
-
-Generation 5
-Percent of Nature: 68.0
-Percent of Residential: 6.0
-Percent of Commercial: 16.0
 Percent of Industrial: 10.0
 Average Distance from Nature
 To Nature: 0.0
-To Residential: 2.49
-To Commercial: 1.61
-To Industrial: 1.78
+To Residential: 1.8
+To Commercial: 1.39
+To Industrial: 1.64
+Average Distance from Residential
+To Nature: 1.1
+To Residential: 0.0
+To Commercial: 1.29
+To Industrial: 1.71
+Average Distance from Commercial
+To Nature: 1.0
+To Residential: 1.69
+To Commercial: 0.0
+To Industrial: 1.57
+Average Distance from Industrial
+To Nature: 1.0
+To Residential: 1.35
+To Commercial: 1.41
+To Industrial: 0.0
+
+Generation 4
+Percent of Nature: 65.0
+Percent of Residential: 7.0
+Percent of Commercial: 18.0
+Percent of Industrial: 10.0
+Average Distance from Nature
+To Nature: 0.0
+To Residential: 2.39
+To Commercial: 1.46
+To Industrial: 2.0
 Average Distance from Residential
 To Nature: 1.0
-To Residential: 28.2
-To Commercial: 19.32
-To Industrial: 22.22
+To Residential: 0.0
+To Commercial: 1.18
+To Industrial: 1.18
 Average Distance from Commercial
-To Nature: 1.38
-To Residential: 12.46
-To Commercial: 7.25
-To Industrial: 10.22
+To Nature: 1.0
+To Residential: 2.12
+To Commercial: 0.0
+To Industrial: 1.74
 Average Distance from Industrial
-To Nature: 3.2
-To Residential: 23.26
-To Commercial: 13.41
-To Industrial: 16.35
+To Nature: 1.0
+To Residential: 1.87
+To Commercial: 1.46
+To Industrial: 0.0
+
+Generation 5
+Percent of Nature: 52.0
+Percent of Residential: 11.0
+Percent of Commercial: 16.0
+Percent of Industrial: 21.0
+Average Distance from Nature
+To Nature: 0.0
+To Residential: 1.83
+To Commercial: 1.89
+To Industrial: 1.28
+Average Distance from Residential
+To Nature: 1.04
+To Residential: 0.0
+To Commercial: 1.97
+To Industrial: 1.35
+Average Distance from Commercial
+To Nature: 1.03
+To Residential: 1.73
+To Commercial: 0.0
+To Industrial: 1.37
+Average Distance from Industrial
+To Nature: 1.02
+To Residential: 1.78
+To Commercial: 1.71
+To Industrial: 0.0
 
 Generation 6
-Percent of Nature: 56.0
-Percent of Residential: 10.0
-Percent of Commercial: 17.0
-Percent of Industrial: 17.0
-Average Distance from Nature
-To Nature: 0.0
-To Residential: 2.09
-To Commercial: 1.53
-To Industrial: 1.41
-Average Distance from Residential
-To Nature: 1.0
-To Residential: 11.73
-To Commercial: 9.98
-To Industrial: 9.49
-Average Distance from Commercial
-To Nature: 1.64
-To Residential: 9.55
-To Commercial: 5.87
-To Industrial: 6.79
-Average Distance from Industrial
-To Nature: 2.66
-To Residential: 12.15
-To Commercial: 7.04
-To Industrial: 6.79
-
-Generation 7
-Percent of Nature: 55.0
-Percent of Residential: 8.0
-Percent of Commercial: 20.0
-Percent of Industrial: 17.0
-Average Distance from Nature
-To Nature: 0.0
-To Residential: 2.18
-To Commercial: 1.25
-To Industrial: 1.71
-Average Distance from Residential
-To Nature: 1.0
-To Residential: 15.02
-To Commercial: 10.23
-To Industrial: 13.49
-Average Distance from Commercial
-To Nature: 1.42
-To Residential: 8.35
-To Commercial: 4.09
-To Industrial: 7.14
-Average Distance from Industrial
-To Nature: 2.67
-To Residential: 12.19
-To Commercial: 6.16
-To Industrial: 8.39
-
-Generation 8
-Percent of Nature: 58.0
-Percent of Residential: 8.0
-Percent of Commercial: 20.0
-Percent of Industrial: 14.0
-Average Distance from Nature
-To Nature: 0.0
-To Residential: 2.09
-To Commercial: 1.33
-To Industrial: 1.71
-Average Distance from Residential
-To Nature: 1.05
-To Residential: 15.16
-To Commercial: 10.97
-To Industrial: 14.29
-Average Distance from Commercial
-To Nature: 1.44
-To Residential: 7.9
-To Commercial: 4.39
-To Industrial: 7.51
-Average Distance from Industrial
-To Nature: 3.09
-To Residential: 12.9
-To Commercial: 7.65
-To Industrial: 10.73
-
-Generation 9
-Percent of Nature: 64.0
-Percent of Residential: 6.0
-Percent of Commercial: 13.0
-Percent of Industrial: 17.0
-Average Distance from Nature
-To Nature: 0.0
-To Residential: 1.87
-To Commercial: 1.74
-To Industrial: 1.4
-Average Distance from Residential
-To Nature: 1.0
-To Residential: 19.96
-To Commercial: 20.58
-To Industrial: 16.41
-Average Distance from Commercial
-To Nature: 1.46
-To Residential: 11.3
-To Commercial: 9.5
-To Industrial: 8.84
-Average Distance from Industrial
-To Nature: 2.18
-To Residential: 10.68
-To Commercial: 8.88
-To Industrial: 6.76
-
-Generation 10
-Percent of Nature: 60.0
-Percent of Residential: 6.0
-Percent of Commercial: 14.0
+Percent of Nature: 49.0
+Percent of Residential: 7.0
+Percent of Commercial: 24.0
 Percent of Industrial: 20.0
 Average Distance from Nature
 To Nature: 0.0
-To Residential: 2.2
-To Commercial: 1.48
+To Residential: 2.29
+To Commercial: 1.23
+To Industrial: 1.42
+Average Distance from Residential
+To Nature: 1.06
+To Residential: 0.0
+To Commercial: 1.18
+To Industrial: 1.38
+Average Distance from Commercial
+To Nature: 1.05
+To Residential: 2.0
+To Commercial: 0.0
+To Industrial: 1.13
+Average Distance from Industrial
+To Nature: 1.16
+To Residential: 2.22
+To Commercial: 1.13
+To Industrial: 0.0
+
+Generation 7
+Percent of Nature: 54.0
+Percent of Residential: 13.0
+Percent of Commercial: 11.0
+Percent of Industrial: 22.0
+Average Distance from Nature
+To Nature: 0.0
+To Residential: 1.56
+To Commercial: 2.04
+To Industrial: 1.17
+Average Distance from Residential
+To Nature: 1.03
+To Residential: 0.0
+To Commercial: 1.83
+To Industrial: 1.19
+Average Distance from Commercial
+To Nature: 1.0
+To Residential: 1.6
+To Commercial: 0.0
+To Industrial: 1.3
+Average Distance from Industrial
+To Nature: 1.0
+To Residential: 1.78
+To Commercial: 1.92
+To Industrial: 0.0
+
+Generation 8
+Percent of Nature: 54.0
+Percent of Residential: 12.0
+Percent of Commercial: 12.0
+Percent of Industrial: 22.0
+Average Distance from Nature
+To Nature: 0.0
+To Residential: 1.87
+To Commercial: 1.58
 To Industrial: 1.33
 Average Distance from Residential
-To Nature: 1.0
-To Residential: 22.04
-To Commercial: 16.65
-To Industrial: 14.6
+To Nature: 1.07
+To Residential: 0.0
+To Commercial: 1.74
+To Industrial: 1.46
 Average Distance from Commercial
-To Nature: 1.43
-To Residential: 11.88
-To Commercial: 7.14
-To Industrial: 7.56
+To Nature: 1.12
+To Residential: 1.9
+To Commercial: 0.0
+To Industrial: 1.24
 Average Distance from Industrial
-To Nature: 2.0
-To Residential: 10.59
-To Commercial: 6.44
-To Industrial: 5.29
+To Nature: 1.0
+To Residential: 2.07
+To Commercial: 1.43
+To Industrial: 0.0
+
+Generation 9
+Percent of Nature: 59.0
+Percent of Residential: 10.0
+Percent of Commercial: 14.0
+Percent of Industrial: 17.0
+Average Distance from Nature
+To Nature: 0.0
+To Residential: 1.7
+To Commercial: 1.45
+To Industrial: 1.43
+Average Distance from Residential
+To Nature: 1.1
+To Residential: 0.0
+To Commercial: 1.31
+To Industrial: 1.25
+Average Distance from Commercial
+To Nature: 1.0
+To Residential: 1.56
+To Commercial: 0.0
+To Industrial: 1.27
+Average Distance from Industrial
+To Nature: 1.0
+To Residential: 1.64
+To Commercial: 1.38
+To Industrial: 0.0
+
+Generation 10
+Percent of Nature: 48.0
+Percent of Residential: 15.0
+Percent of Commercial: 22.0
+Percent of Industrial: 15.0
+Average Distance from Nature
+To Nature: 0.0
+To Residential: 1.58
+To Commercial: 1.33
+To Industrial: 1.72
+Average Distance from Residential
+To Nature: 1.06
+To Residential: 0.0
+To Commercial: 1.37
+To Industrial: 1.61
+Average Distance from Commercial
+To Nature: 1.16
+To Residential: 1.69
+To Commercial: 0.0
+To Industrial: 1.84
+Average Distance from Industrial
+To Nature: 1.09
+To Residential: 1.59
+To Commercial: 1.34
+To Industrial: 0.0
 
