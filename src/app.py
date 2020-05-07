@@ -14,13 +14,14 @@ def simpleLandTest():
 
     # Transition Matrix
     transit = np.matrix([
-        [0.4, 0.5, 0.7],
-        [0.3, 0.5, 0.2],
-        [0.3, 0, 0.1]
+        [0.6, 0.1, 0.15, 0.15],
+        [0.05, 0.8, 0.1, 0.05],
+        [0.05, 0.15, 0.7, 0.1],
+        [0.08, 0.02, 0.1, 0.8]
     ])
 
     # Initialize a land
-    l = SimpleLand(5, 5, 3, transit)
+    l = SimpleLand(5, 5, 4, transit)
     im = ax.imshow(l.land)
     im.figure.savefig("../output/Original.png")
 
@@ -49,4 +50,5 @@ def land1Test():
         heat.figure.savefig(fileName)
         break
 
-land1Test()
+simpleLandTest()
+# land1Test()
