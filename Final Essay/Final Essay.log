@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2019.2.2)  7 MAY 2020 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2019.2.2)  13 MAY 2020 22:42
 entering extended mode
 **"./Final Essay.tex"
 ("Final Essay.tex"
@@ -666,29 +666,54 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 59.
 File: uesvect.fd 
 ) [1
 
-{C:/Users/huawe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
- ("Final Essay.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 156.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+{C:/Users/huawe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<../output/Original.png, id=26, 462.528pt x 346.896pt>
+File: ../output/Original.png Graphic file (type png)
+<use ../output/Original.png>
+Package pdftex.def Info: ../output/Original.png  used on input line 162. on inp
+ut line 162.
+Package pdftex.def Info: Requested size: 277.51894pt x 208.13919pt on input lin
+e 162.
+ [3 <../output/Original.png>]
+<../output/Gen-10.png, id=38, 462.528pt x 346.896pt>
+File: ../output/Gen-10.png Graphic file (type png)
+<use ../output/Gen-10.png>
+Package pdftex.def Info: ../output/Gen-10.png  used on input line 171. on input
+ line 171.
+Package pdftex.def Info: Requested size: 277.51894pt x 208.13919pt on input lin
+e 171.
+<../output/Land3/Land3-Gen-10.png, id=39, 462.528pt x 346.896pt>
+File: ../output/Land3/Land3-Gen-10.png Graphic file (type png)
+<use ../output/Land3/Land3-Gen-10.png>
+Package pdftex.def Info: ../output/Land3/Land3-Gen-10.png  used on input line 1
+79. on input line 179.
+Package pdftex.def Info: Requested size: 277.51894pt x 208.13919pt on input lin
+e 179.
+ [4 <../output/Gen-10.png> <../output/Land3/Land3-Gen-10.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+
+("Final Essay.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 17228 strings out of 493312
- 319776 string characters out of 3138900
+ 17253 strings out of 493312
+ 320260 string characters out of 3138900
  386823 words of memory out of 3000000
- 20458 multiletter control sequences out of 15000+200000
+ 20472 multiletter control sequences out of 15000+200000
  10376 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,48p,716b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Final Essay.pdf" (3 pages, 57593 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Final Essay.pdf" (4 pages, 86402 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

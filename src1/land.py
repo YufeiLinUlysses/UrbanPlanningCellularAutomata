@@ -64,28 +64,54 @@ class Land:
                 else:
                     self.collectTypes["Industrial"].append((i, j))
 
+    def generateOriginalLand(self):
+        rng = np.random.default_rng()
+        randomArray = np.random.randint(4, size=(40))
+        res = np.repeat(1, 30)
+        na = np.repeat(0, 30)
+        integrate = np.append(res, na)
+        integrate = np.append(integrate, randomArray)
+        result = np.reshape(integrate, (10, 10))
+        rng.shuffle(integrate)
+        result = np.reshape(integrate, (10, 10))
+
+        # Define Center of the city, 4 commercial areas
+        result.itemset((5, 2), 2)
+        result.itemset((6, 2), 2)
+        result.itemset((5, 3), 2)
+        result.itemset((6, 3), 2)
+        return result
+
     def __init__(self, row, col, land=None, digitland=None):
         self.row = row
         self.col = col
-        if land != None:
-            self.land = land
-        if digitland != None:
-            self.digitLand = digitland
-        else:
-            for i in range(row):
-                thisrow = []
-                thisdigitrow = []
-                for j in range(col):
-                    typeNum = random.randint(0, 3)
-                    self.landUseCount[typeNum] += 1
-                    ele = c.Cell(self.landTypes[typeNum])
-                    thisrow.append(ele)
-                    thisdigitrow.append(typeNum)
-                self.land.append(thisrow)
-                self.digitLand.append(thisdigitrow)
-            self.updateInfo()
-            self.digitLand = np.matrix(self.digitLand)
-            self.collectLandUse()
+        self.digitland = self.generateOriginalLand()
+        for digitRow in self.digitland:
+            thisrow = []
+            for ele in digitRow:
+                self.landUseCount[ele] += 1
+                elem = c.Cell(self.landTypes[ele])
+                thisrow.append(elem)
+            self.land.append(thisrow)
+        self.updateInfo()
+        self.digitLand = np.matrix(self.digitland)
+        self.collectLandUse()
+        # if land != None and digitland != None:
+        #     self.land = land
+        #     self.digitLand = digitland
+        # else:
+        #     self.digitland = GenerateOriginalLand()
+        #     for digitRow in self.digitland:
+        #         thisrow = []
+        #         print(digitRow)
+        #         for ele in digitRow:
+        #             print(ele)
+        #             self.landUseCount[ele] += 1
+        #             elem = c.Cell(self.landTypes[ele])
+        #             thisrow.append(elem)
+        #         self.land.append(thisrow)
+        # self.updateInfo()
+        # self.collectLandUse()
 
     def newGen(self):
         self.landUseCount = [0, 0, 0, 0]
@@ -103,6 +129,10 @@ class Land:
                 self.digitLand.itemset(
                     (i, j), num)
                 self.landUseCount[num] += 1
+        self.digitLand.itemset((5, 2), 2)
+        self.digitLand.itemset((6, 2), 2)
+        self.digitLand.itemset((5, 3), 2)
+        self.digitLand.itemset((6, 3), 2)
         self.collectLandUse()
         self.updateInfo()
         return self
@@ -139,7 +169,7 @@ class Land:
         result = ""
         for key, val in self.collectTypes.items():
             for item in val:
-                dists[0] += self.getShortestDist(item[0], 
+                dists[0] += self.getShortestDist(item[0],
                                                  item[1], "Nature")
                 dists[1] += self.getShortestDist(item[0],
                                                  item[1], "Residential")
@@ -157,7 +187,7 @@ class Land:
                 str(round(dists[2]/len(val), 2)) + "\n" +\
                 "To Industrial: " + \
                 str(round(dists[3]/len(val), 2)) + "\n"
-                
+
             dists = [0, 0, 0, 0]
         return result
 
@@ -177,3 +207,5 @@ class Land:
 # temp = l.newGen()
 # print(temp.digitLand)
 # print(temp.collectTypes)
+
+l = Land(10, 10)

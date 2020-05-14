@@ -56,5 +56,9 @@ class SimpleLand:
                     break
             newLand[i] = curT
         newLand = np.reshape(newLand, (self.row, self.col))
+        newLand.itemset((5, 2), 2)
+        newLand.itemset((6, 2), 2)
+        newLand.itemset((5, 3), 2)
+        newLand.itemset((6, 3), 2)
         nL = SimpleLand(self.row, self.col, self.n, self.transM, newLand)
         return nL

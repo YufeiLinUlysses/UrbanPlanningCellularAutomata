@@ -5,6 +5,25 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 
+def GenerateOriginalLand():
+    rng = np.random.default_rng()
+    randomArray = np.random.randint(4, size=(40))
+    res = np.repeat(1, 30)
+    na = np.repeat(0, 30)
+    integrate = np.append(res, na)
+    integrate = np.append(integrate, randomArray)
+    result = np.reshape(integrate, (10, 10))
+    rng.shuffle(integrate)
+    result = np.reshape(integrate, (10, 10))
+
+    # Define Center of the city, 4 commercial areas
+    result.itemset((5, 2), 2)
+    result.itemset((6, 2), 2)
+    result.itemset((5, 3), 2)
+    result.itemset((6, 3), 2)
+    return result
+
+
 def simpleLandTest():
     # Initialize plot
     fig, ax = plt.subplots()
@@ -21,7 +40,7 @@ def simpleLandTest():
     ])
 
     # Initialize a land
-    l = SimpleLand(5, 5, 4, transit)
+    l = SimpleLand(10, 10, 4, transit, land=GenerateOriginalLand())
     im = ax.imshow(l.land)
     im.figure.savefig("../output/Original.png")
 
@@ -31,6 +50,7 @@ def simpleLandTest():
         heat = ax.imshow(l.land)
         heat.figure.savefig(fileName)
 
+
 def land1Test():
     # Initialize plot
     fig, ax = plt.subplots()
@@ -39,7 +59,7 @@ def land1Test():
     generations = 10
 
     # Initialize a land
-    l = Land1(10,10)
+    l = Land1(10, 10)
     im = ax.imshow(l.digitLand)
     im.figure.savefig("../output/Land1-Original.png")
 
@@ -49,6 +69,7 @@ def land1Test():
         heat = ax.imshow(l.digitLand)
         heat.figure.savefig(fileName)
         break
+
 
 simpleLandTest()
 # land1Test()

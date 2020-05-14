@@ -153,4 +153,30 @@ Industrial  & 0.04   & 0           & 0.16       & 0.8
 \pagebreak
 Then we obtain the cell's land use type, and get the transition vector for that particular type from the above four matrices. Then we multiply the vector with the percentage of each land use type and add them up together to get the new transition vector. After that we use a stochastic probability to get the next generation for the cell.  
 
+\subsection{Result Comparison}
+
+We started from looking at the city of a $10\times 10$ grid with the city center locates at $(6,3), (6,4), (7,3), (7,4)$. Therefore, the city starts from the following graph:
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{../output/Original.png}
+\caption{Original Land}
+\end{figure}
+
+\pagebreak
+From using the given transition matrix cellular automata, we have the following result:
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{../output/Gen-10.png}
+\caption{100 Years Later}
+\end{figure}
+
+From using the cellular automata with a set of transition rules, we have the following result:
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{../output/Land3/Land3-Gen-10.png}
+\caption{100 Years Later}
+\end{figure}
 \end{document}
